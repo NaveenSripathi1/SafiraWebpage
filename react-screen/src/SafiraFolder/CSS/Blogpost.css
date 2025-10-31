@@ -1,0 +1,26 @@
+.productsList11 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+.productsList11 li {
+    cursor: pointer;
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.productsList11 a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.lowerBanner {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}

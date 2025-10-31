@@ -1,0 +1,167 @@
+.main-productDiv {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.productsList111 {
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    list-style-type: none;
+    margin-left: 150px;
+}
+
+
+
+.productsList111 a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.productsList111 img {
+    width: 270px;
+    height: 200px;
+}
+
+.productsList111 p {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.blog-right {
+    width: 300px;
+    height: 1050px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.blog-right h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px;
+}
+
+#search {
+    padding: 10px;
+}
+
+.blog-right button {
+    width: 85px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.blog-right button:hover {
+    background-color: rgb(124, 186, 30);
+}
+
+.post-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.post-img img {
+    border-radius: 50%;
+}
+
+.post-info a {
+    text-decoration: none;
+    color: black;
+    transition: 0.4s ease-in-out;
+}
+
+.post-info a:hover {
+    color: rgb(56, 163, 56);
+}
+
+.post-info span a {
+    color: green;
+}
+
+.post-info {
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.post-img1 img {
+    margin-top: 5px;
+    height: 45px;
+    width: 65px;
+}
+
+.categories-list li {
+    list-style-type: none;
+    line-height: 25px;
+
+}
+
+.categories-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.categories-list li a:hover {
+    color: green;
+}
+
+.tag-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.tag-buttons button {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.231);
+    color: black;
+}
+
+.tag-buttons button:hover {
+    color: white;
+}
+
+.next-pages1 {
+    border: 1px solid black;
+    height: 50px;
+    width: 81%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 150px;
+}
+
+.next-pages1 button {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.106);
+    border: none;
+    transition: 0.4s ease-in-out;
+}
+
+.next-pages1 button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#first {
+    background-color: #4CAF50;
+    color: white;
+}

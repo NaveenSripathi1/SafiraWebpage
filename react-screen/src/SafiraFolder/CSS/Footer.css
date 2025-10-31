@@ -1,0 +1,30 @@
+.footer {
+    border: 1px solid black;
+    height: 90px;
+    background-color: #80B82D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    color: whitesmoke;
+
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.text a {
+    color: whitesmoke;
+}
+
+.payCards {
+
+    display: flex;
+    gap: 14px;
+
+}
+
+.payCards img {
+    border-radius: 5px;
+}

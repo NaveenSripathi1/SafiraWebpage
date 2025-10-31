@@ -1,0 +1,77 @@
+.upperFooter {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.lowerContent {
+    height: 250px;
+    width: 320px;
+    font-size: 14px;
+}
+
+.lowerContent h3 {
+    font-size: 18px;
+}
+
+.lowerContent p {
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.lowerContent a {
+    text-decoration: none;
+    color: black;
+}
+
+#one,
+#two {
+    height: 250px;
+    width: 180px;
+    line-height: 35px;
+}
+
+#three {
+    height: 250px;
+    width: 300px;
+}
+
+#three p {
+    margin-bottom: 50px;
+}
+
+a:hover {
+    color: green;
+}
+
+#email {
+    width: 50%;
+    border: 1px solid rgb(221, 218, 218);
+    background: none;
+    padding: 0 25px;
+    height: 52px;
+    font-size: 13px;
+    opacity: 0.4;
+    color: #222;
+    outline: none;
+    border-radius: 30px 0 0 30px;
+}
+
+#submit {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    top: 0;
+    margin: 0;
+    border: none;
+    transition: 0.9s;
+    padding: 18px;
+    border-radius: 0 50px 50px 0;
+    background-color: #40A944;
+    color: #fff;
+}
+
+#submit:hover {
+    background-color: #434343;
+}

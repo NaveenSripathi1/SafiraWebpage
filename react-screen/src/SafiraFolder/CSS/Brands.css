@@ -1,0 +1,29 @@
+.brands {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.brandlogo {
+    border: 1px solid rgb(213, 213, 215);
+    border-radius: 6px;
+    height: 100px;
+    width: 79%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brandlogo img {
+    height: 70%;
+    width: 17%;
+    opacity: 0.6;
+    transition: all 0.5s ease;
+}
+
+.brandlogo img:hover {
+    opacity: 1;
+    transform: scale(0.3s);
+}

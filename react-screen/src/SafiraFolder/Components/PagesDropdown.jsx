@@ -7,7 +7,7 @@ const PagesDropdown = () => {
             <div className="dropdown-column">
                 <ul className="dropdown-list">
                     <li><Link to="/AboutUspage">About Us</Link></li>
-                    <li><a href="#">Services</a></li>
+                    <li><Link to='/ServicesPage'>Services</Link></li>
                     <li><a href="#">Frequently Questions</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">Login</a></li>

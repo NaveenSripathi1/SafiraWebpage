@@ -1,27 +1,245 @@
 .aboutus-container {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
-    /* overflow: hidden; */
+    align-items: center;
+    flex-direction: column;
+
 }
 
 .aboutus-big {
-    border: 2px solid rgb(210, 46, 46);
+    /* border: 2px solid rgb(210, 46, 46); */
     width: 70%;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* justify-content: center; */
+    align-items: center;
 }
 
 .aboutus-big img {
     width: 100%;
 }
 
+.aboutus-big h2 {
+    font-weight: 100;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
 .aboutus-big>div {
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 80%;
     justify-content: center;
-    /* align-items: center; */
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    text-align: center;
+}
+
+.signature {
+    /* border: 1px solid blue; */
+    margin-top: 50px;
+    height: 150px;
+    width: 250px;
+}
+
+.policy-groups {
+    /* border: 1px solid blueviolet; */
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+    background-image: url("../../../public/assets/about-us-policy-bg.jpg");
+}
+
+.about-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 370px;
+    gap: 20px;
+
+}
+
+.about-icons h2 {
+    font-weight: 200;
+}
+
+.about-icons p {
+    /* letter-spacing: 1px; */
+    line-height: 30px;
+    word-spacing: 2px;
+
+}
+
+.about-icons div img {
+    transition: transform 0.6s ease;
+    /* smooth flip */
+}
+
+.about-icons div:hover img {
+    transform: scaleX(-1);
+}
+
+.policy-groups1 {
+    /* border: 1px solid blueviolet; */
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.about-icons1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 370px;
+    gap: 20px;
+
+}
+
+.about-icons1 h2 {
+    font-weight: 200;
+    font-size: 27px;
+    letter-spacing: 1px;
+}
+
+.about-icons1 p {
+    /* letter-spacing: 1px; */
+    line-height: 30px;
+    word-spacing: 2px;
+
+}
+
+.aboutus-below-cont {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.left-cont,
+.right-cont {
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid blue; */
+    width: 40%;
+    height: 400px;
+
+}
+
+.left-cont h2,
+.right-cont h2 {
+    font-weight: 100;
+}
+
+.accordion-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.accordion-item summary {
+    list-style: none;
+    background-color: #fff;
+    padding: 15px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s ease;
+    position: relative;
+}
+
+
+.accordion-item summary::after {
+    content: "▾";
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+
+
+.accordion-item[open] summary::after {
+    transform: rotate(180deg);
+}
+
+.accordion-item[open] summary {
+    background-color: #28a745;
+    color: white;
+}
+
+.accordion-item p {
+    padding: 20px;
+    background-color: white;
+    color: #333;
+    border-top: 1px solid #ddd;
+    margin: 0;
+}
+
+.testimonial-container {
+    width: 570px;
+    height: 370px;
+    margin: 0px 20px;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.testimonial-image {
+
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+
+.quote-icon {
+    font-size: 60px;
+    margin-top: 5px;
+    color: #da2626;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    margin: 5px 0;
+    line-height: 30px;
+    color: #333;
+}
+
+.testimonial-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #111;
+}
+
+.dots {
+    margin-top: 15px;
+}
+
+.dot {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #bbb;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: red;
 }

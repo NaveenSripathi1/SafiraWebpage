@@ -1,0 +1,84 @@
+.services-first-cont {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.services-img {
+    border: 1px solid red;
+    width: 24.5%;
+    font-size: 14px;
+}
+
+.services-img h3 {
+    font-weight: 100;
+}
+
+.services-second-cont {
+    height: 450px;
+    display: flex;
+    border: 1px solid green;
+    background-color: rgba(128, 128, 128, 0.128);
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.our-services {
+    border: 1px solid black;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    line-height: 30px;
+    /* flex-direction: column; */
+    align-items: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    justify-content: center;
+}
+
+.service-branding-cont {
+    border: 2px solid black;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 700px;
+}
+
+.service-branding-cont>div {
+    border: 1px solid red;
+    display: flex;
+    gap: 10px;
+    width: 256px;
+    height: 150px;
+}
+
+.service-logos {
+    border: 1px solid rgb(72, 0, 255);
+    width: 80px;
+}
+
+.service-big-content {
+    border: 2px solid rgb(17, 9, 4);
+    width: 162px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.service-first {
+    border: 2px solid green;
+    height: 40px;
+}
+
+.service-second {
+    border: 2px solid green;
+    height: 100px;
+}

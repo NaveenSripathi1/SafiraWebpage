@@ -77,9 +77,7 @@ const Bloglist1 = () => {
                             <option>Vegetables</option>
                             <option>Shop</option>
                             <option>Laptops & Desktops</option>
-
                         </select>
-
 
                         <input
                             type="text"

@@ -6,7 +6,6 @@ import PagesDropdown from '../Components/PagesDropdown';
 import UpperFooter from '../Components/UpperFooter';
 import Footer from '../Components/Footer';
 import { Link } from 'react-router-dom';
-import TestimonialSlider from './TestimonialSlider';
 
 const Dropdown = ({ title, items }) => {
     const [open, setOpen] = useState(false);
@@ -33,7 +32,7 @@ const Dropdown = ({ title, items }) => {
     );
 };
 
-const AboutUspage = () => {
+const ServicesPage = () => {
     return (
 
         <div className="header">
@@ -156,119 +155,103 @@ const AboutUspage = () => {
 
             {/* login-banner */}
             <div className='login-banner'>
-                <h1>About Us</h1>
-                <a href="">Home / About Us</a>
-
+                <h1>Services</h1>
+                <a href="">Home / Our Services</a>
             </div>
-            <div className='aboutus-container'>
-                <div className='aboutus-big'>
-                    <img src="/assets/about1.webp" alt="" />
-                    <h2>We are a digital agency focused on delivering content and utility user-experiences.</h2>
+
+            <div className="services-first-cont">
+                <div className="services-img">
+                    <img src="/assets/services1.webp" alt="" />
+                    <h3>DESIGN THE COVER</h3>
+                    <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.</p>
+                </div>
+                <div className="services-img">
+                    <img src="/assets/services2.webp" alt="" />
+                    <h3>DESIGN THE COVER</h3>
+                    <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.</p>
+                </div>
+                <div className="services-img">
+                    <img src="/assets/services3.webp" alt="" />
+                    <h3>DESIGN THE COVER</h3>
+                    <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.</p>
+                </div>
+            </div>
+            <div className="services-second-cont">
+                <div className='our-services'>
+                    <h2>OUR SERVICES</h2>
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit..</p>
+
+                </div>
+
+                <div className='service-branding-cont'>
                     <div>
-                        <p>Adipiscing lacus ut elementum, nec duis, tempor litora turpis dapibus. Imperdiet cursus odio tortor in elementum. Egestas nunc eleifend feugiat lectus laoreet, vel nunc taciti integer cras. Hac pede dis, praesent nibh ac dui mauris sit. Pellentesque mi, facilisi mauris, elit sociis leo sodales accumsan.</p>
-                    </div>
-
-                </div>
-                <div className="signature">
-                    <img src="/assets/about-us-signature.webp" alt="" />
-                </div>
-
-                <div className='policy-groups'>
-                    <div className='about-icons'>
-                        <div>
-                            <img src="/assets/About_icon1.webp" alt="" />
+                        <div className="service-logos"></div>
+                        <div className="service-big-content">
+                            <div className="service-first"></div>
+                            <div className="service-second"></div>
                         </div>
-                        <h2>Creative Design</h2>
-                        <p>Erat metus sodales eget dolor consectetuer, porta ut purus at et alias, nulla ornare velit amet</p>
                     </div>
-                    <div className='about-icons'>
-                        <div>
-                            <img src="/assets/About_icon2.webp" alt="" />
+                    <div>
+                        <div className="service-logos"></div>
+                        <div className="service-big-content">
+                            <div className="service-first"></div>
+                            <div className="service-second"></div>
                         </div>
-                        <h2>100% Money Back Guarantee</h2>
-                        <p>Erat metus sodales eget dolor consectetuer, porta ut purus at et alias, nulla ornare velit amet</p>
                     </div>
-                    <div className='about-icons'>
-                        <div>
-                            <img src="/assets/About_icon3.webp" alt="" />
+
+                    <div>
+                        <div className="service-logos"></div>
+                        <div className="service-big-content">
+                            <div className="service-first"></div>
+                            <div className="service-second"></div>
                         </div>
-                        <h2>Online Support 24/7</h2>
-                        <p>Erat metus sodales eget dolor consectetuer, porta ut purus at et alias, nulla ornare velit amet</p>
                     </div>
 
-                </div>
-                <div className='policy-groups1'>
-                    <div className='about-icons1'>
-                        <div>
-                            <img src="/assets/about2.webp" style={{ width: "360px", height: "215px" }} alt="" />
+                    <div>
+                        <div className="service-logos"></div>
+                        <div className="service-big-content">
+                            <div className="service-first"></div>
+                            <div className="service-second"></div>
                         </div>
-                        <h2>What do we do?</h2>
-                        <p>Erat metus sodales eget dolor consectetuer, porta ut purus at et alias, nulla ornare velit amet</p>
                     </div>
-                    <div className='about-icons1'>
-                        <div>
-                            <img src="/assets/about3.webp" style={{ width: "360px", height: "215px" }} alt="" />
+
+                    <div>
+                        <div className="service-logos"></div>
+                        <div className="service-big-content">
+                            <div className="service-first"></div>
+                            <div className="service-second"></div>
                         </div>
-                        <h2>Our Mission</h2>
-                        <p>Erat metus sodales eget dolor consectetuer, porta ut purus at et alias, nulla ornare velit amet</p>
                     </div>
-                    <div className='about-icons1'>
-                        <div>
-                            <img src="/assets/about4.webp" style={{ width: "360px", height: "215px" }} alt="" />
+
+                    <div>
+                        <div className="service-logos"></div>
+                        <div className="service-big-content">
+                            <div className="service-first"></div>
+                            <div className="service-second"></div>
                         </div>
-                        <h2>History Of Us</h2>
-                        <p>Erat metus sodales eget dolor consectetuer, porta ut purus at et alias, nulla ornare velit amet</p>
                     </div>
 
-                </div>
-                <br />
-                <hr id='horizontal' />
-                <div className='aboutus-below-cont'>
-                    <div className='left-cont'>
-                        <h2>What can we do for you ?</h2>
-
-                        <details className="accordion-item">
-                            <summary>Fast Free Delivery</summary>
-                            <p>
-                                Nam liber tempor cum soluta nobis eleifend option. <br />
-
-                                <br />
-
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
-                            </p>
-                        </details>
-
-                        <details className="accordion-item">
-                            <summary>More Than 30 Years In The Business</summary>
-                            <p>
-                                Experience the power of our longstanding dedication to quality and service.
-                            </p>
-                        </details>
-
-                        <details className="accordion-item">
-                            <summary>100% Organic Foods</summary>
-                            <p>
-                                All our products are made with certified organic ingredients.
-                            </p>
-                        </details>
-
-                        <details className="accordion-item">
-                            <summary>Best Shopping Strategies</summary>
-                            <p>
-                                We continuously improve customer experience with innovative shopping ideas.
-                            </p>
-                        </details>
+                    <div>
+                        <div className="service-logos"></div>
+                        <div className="service-big-content">
+                            <div className="service-first"></div>
+                            <div className="service-second"></div>
+                        </div>
                     </div>
 
-
-                    <div className='right-cont'>
-                        <h2>What Our Customers Says ?</h2>
-                        <TestimonialSlider />
+                    <div>
+                        <div className="service-logos"></div>
+                        <div className="service-big-content">
+                            <div className="service-first"></div>
+                            <div className="service-second"></div>
+                        </div>
                     </div>
                 </div>
-                <br />
-                <hr id='horizontal' />
+
             </div>
+
+
+            <hr id='horizontal' />
 
             <br /><br /><br />
             <UpperFooter />
@@ -277,4 +260,4 @@ const AboutUspage = () => {
     );
 };
 
-export default AboutUspage;
+export default ServicesPage;

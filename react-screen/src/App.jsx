@@ -20,6 +20,7 @@ import './SafiraFolder/CSS/Blogpage.css'
 import './SafiraFolder/CSS/Bloglist.css'
 import './SafiraFolder/CSS/Bloglist2.css'
 import './SafiraFolder/CSS/AboutUspage.css'
+import './SafiraFolder/CSS/Services.css'
 
 
 import MainPage from './SafiraFolder/Pages/MainPage'
@@ -32,6 +33,7 @@ import Bloglist1 from './SafiraFolder/Pages/Bloglist1'
 import Bloglist2 from './SafiraFolder/Pages/Bloglist2'
 import Bloglist3 from './SafiraFolder/Pages/Bloglist3'
 import AboutUspage from './SafiraFolder/Pages/AboutUspage'
+import ServicesPage from './SafiraFolder/Pages/ServicesPage'
 
 
 function App() {
@@ -47,6 +49,7 @@ function App() {
         <Route path='/bloglist2' element={<Bloglist2 />}></Route>
         <Route path='/bloglist3' element={<Bloglist3 />}></Route>
         <Route path='/AboutUspage' element={<AboutUspage />}></Route>
+        <Route path='/ServicesPage' element={<ServicesPage />}></Route>
 
       </Routes>
     </>

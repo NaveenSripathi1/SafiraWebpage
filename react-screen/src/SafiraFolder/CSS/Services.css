@@ -1,5 +1,5 @@
 .services-first-cont {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -9,7 +9,7 @@
 }
 
 .services-img {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 24.5%;
     font-size: 14px;
 }
@@ -19,9 +19,9 @@
 }
 
 .services-second-cont {
-    height: 450px;
+    height: 500px;
     display: flex;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     background-color: rgba(128, 128, 128, 0.128);
     margin-top: 30px;
     justify-content: center;
@@ -30,7 +30,7 @@
 }
 
 .our-services {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 800px;
     display: flex;
     flex-wrap: wrap;
@@ -44,16 +44,18 @@
 }
 
 .service-branding-cont {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     gap: 12px;
+    margin-top: 20px;
     flex-wrap: wrap;
     width: 70%;
-    height: 700px;
+    /* height: 500px; */
+    /* margin-bottom: 30px; */
 }
 
 .service-branding-cont>div {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     gap: 10px;
     width: 256px;
@@ -61,24 +63,187 @@
 }
 
 .service-logos {
-    border: 1px solid rgb(72, 0, 255);
-    width: 80px;
+    /* border: 1px solid rgb(72, 0, 255); */
+    width: 50px;
+}
+
+.service-logos svg {
+    width: 40px;
+    height: 40px;
+    color: rgb(38, 147, 38);
+
 }
 
 .service-big-content {
-    border: 2px solid rgb(17, 9, 4);
-    width: 162px;
+    /* border: 2px solid rgb(17, 9, 4); */
+    width: 190px;
     display: flex;
     flex-direction: column;
     gap: 2px;
 }
 
 .service-first {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 40px;
 }
 
 .service-second {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 100px;
+    font-size: 14px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+.service-bg-man {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.service-bg-div1 {
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 500px;
+}
+
+.service-bg-div1 img {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.service-bg-div2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* border: 2px solid black; */
+    margin-top: 80px;
+    height: 400px;
+    width: 600px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.service-bg-div2 h2 {
+    font-weight: 100;
+}
+
+.service-bg-div2 button {
+    width: 120px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: white;
+    transition: 0.5s ease;
+    border: 1px solid rgba(0, 0, 0, 0.244);
+}
+
+.service-bg-div2 button:hover {
+    color: white;
+    background-color: rgb(61, 157, 61);
+}
+
+.purchase-cards-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 550px;
+    gap: 25px;
+    background-color: rgba(165, 163, 163, 0.501);
+}
+
+.purchase-cards {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 250px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease-in-out;
+}
+
+.purchase-cards:hover {
+    width: 300px;
+    height: 490px;
+}
+
+.purchase-cards hr {
+    width: 80%;
+    margin-left: 25px;
+    opacity: 0.3;
+}
+
+.purchase-cards span {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.purchase-title {
+    color: white;
+    background-color: rgb(71, 169, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    height: 50px;
+}
+
+.purchase-title h3 {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.purchase-content {
+    display: flex;
+    justify-content: center;
+}
+
+.purchase-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.purchase-list button {
+    width: 120px;
+    height: 45px;
+    font-size: 12px;
+    border-radius: 30px;
+    background-color: white;
+    transition: 0.5s ease;
+    border: 1px solid rgba(0, 0, 0, 0.244);
+}
+
+.purchase-list button:hover {
+    color: white;
+    background-color: rgb(61, 157, 61);
+}
+
+.purchase-list .even-btn {
+    background-color: rgb(70, 157, 70);
+    color: white;
+}
+
+.belowcards-div {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    margin-top: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    margin-bottom: 80px;
+}
+
+.belowcards-div h2 {
+    font-weight: 100;
+    font-size: 25px;
 }
